@@ -66,7 +66,7 @@ export default function Cosmediate () {
 
   return (
     <div className="app-container">
-      <div className="mt-3 mb-3">
+      <div className="mb-3 mt-3">
         <div className="row" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div className="col-md-4 col-sm-12" style={{ display: "flex", justifyContent: "start", alignItems: "center" }}>
             <h3 style={{ fontWeight: "bold", marginLeft: "1rem", marginTop: "0.5rem" }}>Cosmediate</h3>
@@ -112,7 +112,7 @@ export default function Cosmediate () {
               <p className="menu">REVIEWS</p>
             </li>
             <li>
-              <CiSettings className="icons" />
+              <CiSettings className="icons" style={{  color: '#7371fc'}}/>
               <p className="menu">SETTINGS</p>
             </li>
           </ul>
@@ -177,13 +177,8 @@ export default function Cosmediate () {
           </div>
 
           <div className="add-subcategory">
-            <input
-              type="text"
-              className="input-field"
-              placeholder="Select Treatment..."
-              value={newSubCategory}
-              onChange={(e) => setNewSubCategory(e.target.value)}
-            />
+            <input  type="text" className="input-field" placeholder="Select Treatment..." value={newSubCategory}
+              onChange={(e) => setNewSubCategory(e.target.value)}/>
             <button  className="btn-plus" style={{border:'none'}} onClick={handlealert}>
             <IoMdAdd />
             </button>
