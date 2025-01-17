@@ -78,7 +78,7 @@ export default function Cosmediate () {
           </div>
           <div className="col-md-4 col-sm-12" style={{ display: "flex", justifyContent: "end", alignItems: "center" }}>
             <LuBellDot style={{ color: "skyblue", marginRight: "1rem", fontSize: "1.5rem" }} />
-            <img src="Aliraza.jpg" alt="user" style={{ height: "2rem", width: "2rem", borderRadius: "2rem" }}/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLe5PABjXc17cjIMOibECLM7ppDwMmiDg6Dw&s" alt="user" style={{ height: "2rem", width: "2rem", borderRadius: "2rem" }}/>
             <span style={{ marginLeft: "1rem", fontSize: "0.8rem", color: "grey" }}>
             <span>Tim Bouwman</span>
              <br />
