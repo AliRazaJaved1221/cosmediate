@@ -1,4 +1,3 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
@@ -11,7 +10,6 @@ body {
   height: 100vh;
 }
 
-/* Sidebar Styles */
 .sidebar {
   width: 10%;
   background-color: #f9f9fb;
@@ -52,7 +50,6 @@ body {
   color: #7371fc;
 }
 
-/* Main Content Styles */
 .main-content {
   flex-grow: 1;
   background-color: white;
@@ -93,7 +90,6 @@ body {
   margin-left: 1rem;
 }
 
-/* Category Buttons */
 .categories {
   flex-direction: column;
   margin-bottom: 20px;
@@ -128,7 +124,6 @@ text-align: center;
 justify-content: center;
 }}
 
-/* Table Styles */
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -158,7 +153,6 @@ justify-content: center;
   color: rgb(124, 121, 121);
 }
 
-/* Add Subcategory Styles */
 .add-subcategory {
   display: flex;
   align-items: center;
@@ -264,9 +258,7 @@ justify-content: center;
   margin-top: 1rem;
 }
 
-/* Responsive Styles - Apply changes for smaller screens */
 
-/* Tablet screens and below (max-width: 768px) */
 @media screen and (max-width: 768px) {
   .settings-container {
     flex-direction: column;
@@ -326,7 +318,6 @@ justify-content: center;
   }
 }
 
-/* Mobile screens and below (max-width: 576px) */
 @media screen and (max-width: 576px) {
   .sidebar,
   .sidebar2 {
